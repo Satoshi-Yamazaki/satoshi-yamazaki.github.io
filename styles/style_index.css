@@ -1,4 +1,4 @@
-  
+   
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 body {
@@ -70,7 +70,7 @@ body {
 .corpo {
     background-color: white;
     min-width: 500px;
-    height: 3000px;
+    height: 5700px;
     border-radius: 30px;
     margin-top: 120px;
     max-width: 100%;
@@ -80,7 +80,7 @@ body {
 }
 .conteiner p {
     position: relative;
-    width: 300px;
+    width: 470px;
     left: 60px;
     transform: translateY(-30%);
 }
@@ -105,6 +105,23 @@ body {
 .publicacao {
     margin-bottom: -190px;
 }
+
 .imagePubli {
     width: 400px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.texto p {
+    top: 1260px;
+    left: 1px;
+    width: 470px;
+    color: black;
+}
+.texto p img {
+    width: 470px;
+}
+.texto p a:hover {
+    color: rgb(0, 83, 89);
 }
