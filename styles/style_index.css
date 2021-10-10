@@ -78,7 +78,7 @@ body {
 .conteiner {
     padding: 15px;
 }
-.conteiner p {
+.nomepu {
     position: relative;
     width: 470px;
     left: 60px;
@@ -111,12 +111,6 @@ body {
 }
 a {
     text-decoration: none;
-    color: black;
-}
-.texto p {
-    top: 1260px;
-    left: 1px;
-    width: 470px;
     color: black;
 }
 .texto p img {
