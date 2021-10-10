@@ -1,4 +1,4 @@
-  
+   
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 body {
@@ -82,14 +82,12 @@ body {
 .boxImageSquare {
     width: 500px;
     height: 500px;
-    padding-left: 30px;
 }
 .info {
     width: 400px;
     position: relative;
-    left: 445px;
+    left: 420px;
     transform: translateY(-480px);
-    padding: 30px;
 }
 .publicacao {
     margin-bottom: -190px;
