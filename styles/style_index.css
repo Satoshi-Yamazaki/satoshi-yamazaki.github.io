@@ -82,11 +82,12 @@ body {
 .boxImageSquare {
     width: 500px;
     height: 500px;
+    padding-left: 30px;
 }
 .info {
     width: 400px;
     position: relative;
-    left: 420px;
+    left: 445px;
     transform: translateY(-480px);
 }
 .publicacao {
