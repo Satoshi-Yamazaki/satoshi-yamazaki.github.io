@@ -83,10 +83,15 @@ body {
     width: 470px;
     left: 60px;
     transform: translateY(-30%);
+    padding-left: 30px;
+}
+.artigo {
+    padding: 30px;
 }
 .icone {
     border-radius: 100%;
     transform: translateY(100%);
+    margin-left: 25px;
 }
 .boxImageSquare {
     width: 500px;
