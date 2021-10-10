@@ -128,3 +128,15 @@ a {
 .texto p a:hover {
     color: rgb(0, 83, 89);
 }
+.foot {
+    background-color: rgb(0, 132, 141);
+    text-align: center;
+    color: white;
+    margin-top: -55px;
+}
+footer {
+    padding: 30px;    
+}
+footer a {
+    font-size: 23px;
+}
