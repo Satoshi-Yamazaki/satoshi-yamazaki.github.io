@@ -36,36 +36,37 @@
                 <div class="texto">
                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwSCNiy1mcH_2I7TsH7V-ndA7j3PPxVdCHHw&usqp=CAU"><br>
                    <h6>Imagem - Kinsta</h6>
-                   <h3>Resolver o erro causado pela expiração do certificado SSL, DST root CA X3 de maneira fácil e rapida</h3>
+                   <h3>Resolver o erro causado pela expiração do certificado SSL, DST root CA X3 de maneira fácil e rápida</h3>
                    <p>                   
                     <b>Primeiro</b>, baixe o arquivo "isrgrootx1.der" do site <i><a href="https://letsencrypt.org/">Letsencrypt</a></i> clicando <b><a href="https://letsencrypt.org/certs/isrgrootx1.der">AQUI</a></b>.<br>
-                    (Obs.:Este arquivo .der é um certificado SSL que substitui o certificado que se expirou dia 30/09/2021 o DST root CA X3 que causou tudo isso.)<br><br>
+                    (Obs.:Este arquivo .der é um certificado SSL que substitui o certificado que se expirou dia 30/09/2021 o DST root CA X3.)<br><br>
                     
-                    <b>Segundo</b>, acesse o executar do Windows(Win+R), digite o comando "certmrg.msc" e clique em "OK". Se abrira uma janela no console.<br><br>
+                    <b>Segundo</b>, acesse o executar do Windows(Win+R), digite o comando "certmrg.msc" e clique em "OK". Se abrirá uma janela no console.<br><br>
                     <img src="images/executar.png"><br><br>
                     
-                    <b>Terceiro</b>, Ache a opção "Autoridades de Certificação Raiz Confiaveis" no canto esquerdo da janela e entre nos "Certificados".<br>
+                    <b>Terceiro</b>, ache a opção "Autoridades de Certificação Raiz Confiáveis" no canto esquerdo da janela e entre nos "Certificados". 
                     Ache o certificado "DST root CA X3", clique com o botão direito do mouse sobre ele e o exclua.<br><br>
                     <img src="images/console.png"><br><br>
                     
-                    <b>Quarto</b>, vá ate onde esta baixado o arquivo "isrgrootx1.der" e o execute.<br>
-                    Na janela que se abrira, clique em "Instalar Certificado...".<br><br>
+                    <b>Quarto</b>, vá até onde está baixado o arquivo "isrgrootx1.der" e o execute.<br>
+                    Na janela que se abrirá, clique em "Instalar Certificado...".<br><br>
                     <img src="images/cert1.png"><br><br>
-                    Clique em "Avançar" e na proxima pagina<br><br>
+                    Clique em "Avançar" e na próxima página,<br><br>
                     <img src="images/cert2.png"><br><br>
-                    selecione a opção "Colocar todos os certificados no repositorio a seguir", em seguida clique em "procurar...", na nova janela selecione a opção "Autoridades de Certificação Raiz Confiaveis" e clique em "OK". Em seguida clique em "Avançar"<br><br>
+                    selecione a opção "Colocar todos os certificados no repositório a seguir", em seguida clique em "procurar...", 
+                    na nova janela selecione a opção "Autoridades de Certificação Raiz Confiáveis" e clique em "OK". Em seguida clique em "Avançar"<br><br>
                     <img src="images/cert3.png"><br><br>
-                    na proxima pagina clique em "Concluir".<br><br>
+                    na próxima página clique em "Concluir".<br><br>
                     <img src="images/cert4.png"><br><br>
-                    Se abrira uma nova janela confirmando que a importação do certificado foi concluida com sucesso, clique em "OK".<br><br>
+                    Se abrirá então uma nova janela confirmando que a importação do certificado foi concluída com sucesso, clique em "OK".<br><br>
                     <img src="images/cert5.png"><br><br>
                     
-                    <b>Quinto</b>, se o seu navegador ainda estiver aberto, fecheo e em seguida abra-o novamente e tente entrar no site onde havia o erro.<br>
+                    <b>Quinto</b>, se o seu navegador ainda estiver aberto, feche-o e em seguida abra-o novamente e tente entrar no site onde houve o erro.<br>
                     Se todos os passos foram seguidos corretamente e não houve nenhum erro, o site deve se abrir normalmente.<br><br>
                     
-                    Pronto agora seu certificado SSL esta atualizado até 2035.<br><br>
+                    Pronto agora seu certificado SSL está atualizado até 2035.<br><br>
 
-                    <b>(Obs.: Este metodo funciona em praticamente todos os casos, caso não funcione, pesquise outra solução.)</b>
+                    <b>(Obs.: Este método funciona em praticamente todos os casos, caso não funcione, pesquise outra solução.)</b>
                    </p>
                 </div>
             </div>
