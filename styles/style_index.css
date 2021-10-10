@@ -122,6 +122,9 @@ a {
 .texto p img {
     width: 460px;
 }
+.texto img {
+    width: 460px;
+}
 .texto p a:hover {
     color: rgb(0, 83, 89);
 }
