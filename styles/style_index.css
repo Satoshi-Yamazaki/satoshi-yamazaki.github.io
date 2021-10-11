@@ -98,6 +98,10 @@ body {
 a {
     text-decoration: none;
     color: black;
+    
+}
+a:hover {
+    color: rgb(0, 83, 89);
 }
 .artigo p a:hover {
     color: rgb(0, 83, 89);
@@ -136,7 +140,4 @@ a {
 footer {
     padding: 30px;
     border-radius: 30px;
-}
-footer a {
-    font-size: 23px;
 }
