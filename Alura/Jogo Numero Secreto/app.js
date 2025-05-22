@@ -3,6 +3,8 @@ let numMax = 100;
 let numSecret = gerarNum();
 let tentativas = 1;
 
+//teste 01
+
 const inputField = document.getElementById("inputNum"); 
 
 inputField.addEventListener("keypress", function(event) {
